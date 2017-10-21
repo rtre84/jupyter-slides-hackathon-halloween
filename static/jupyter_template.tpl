@@ -19,6 +19,7 @@
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="{{resources.reveal.url_prefix}}/css/reveal.css">
 <link rel="stylesheet" href="css/custom.css" id="theme">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -151,7 +152,7 @@ require(
                   condition: function() { return !!document.body.classList; } },
                 { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(
                   // Change footer here
-          '© 2016 Dat Tran.  All rights reserved.', 'rgba(255,255,255,0.5)'
+          '© 2017 Intelycare Mobile (Alexa Team).  All rights reserved.', 'rgba(255,255,255,0.5)'
           ); } }
             ]
         });

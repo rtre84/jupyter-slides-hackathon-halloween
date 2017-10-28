@@ -1,5 +1,6 @@
 ### Forked from https://github.com/datitran/jupyter2slides
 # Repurposed for the Intelycare Halloween Hackthon
+### This repo is incomplete. It is runnable but does not have the final presentation.
 
 # Jupyter Notebook + Reveal.js
 
